@@ -1,0 +1,89 @@
+{
+    "personal": {
+        "firstname": "John",
+        "middlename": "J.",
+        "lastname": "Doe",
+        "street": "My Road 12345",
+        "city": "Frankfurt am Main",
+        "zipcode": "60218",
+        "country": "Germany",
+        "birthdate": "10-10-1981",
+        "birthplace": "Frankfurt",
+        "email": "my@email.com",
+        "mobile": "123456",
+        "website": "www.mywebsite.com"
+    },
+    "experience": [
+        {
+            "from": "10/2015",
+            "until": "today",
+            "position": "Developer",
+            "organisation": "Company",
+            "description": "",
+            "city": "London",
+            "country": "United Kingdom"
+        },
+        {
+            "from": "08/2013",
+            "until": "07/2014",
+            "position": "Business Analyst",
+            "organisation": "Company",
+            "description": "",
+            "city": "Paris",
+            "country": "France"
+        },
+        {
+            "from": "08/2006",
+            "until": "07/2013",
+            "position": "Web Developer",
+            "organisation": "Freelance",
+            "description": "",
+            "city": "Frankfurt",
+            "country": "Germany"
+        }
+    ],
+    "education": [
+        {
+            "from": "09/2014",
+            "until": "09/2015",
+            "position": "MSc Computer Science",
+            "organisation": "University of Southampton",
+            "description": "",
+            "city": "Southampton",
+            "country": "United Kingdom"
+        },
+        {
+            "from": "01/2013",
+            "until": "07/2014",
+            "position": "Certificate in Business Analysis",
+            "organisation": "University of Toronto",
+            "description": "",
+            "city": "Toronto",
+            "country": "Canada"
+        }
+    ],
+    "languages": [
+        {
+            "name": "German",
+            "level": "native"
+        },
+        {
+            "name": "English",
+            "level": "fluent (written and spoken)"
+        },
+        {
+            "name": "French",
+            "level": "basic conversational"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming languages",
+            "content": "JavaScript, PHP, SQL, Python"
+        },
+        {
+            "name": "Data formats",
+            "content": "HTML5, XHTML, JSON, CSV, XML, RDF, OWL"
+        }
+    ]
+}
