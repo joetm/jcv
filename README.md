@@ -1,4 +1,4 @@
 jCV
 ============
 
-(Work in progress.)
+Simple data-driven CV
