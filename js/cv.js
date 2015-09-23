@@ -12,12 +12,13 @@ $(function () {
     var templates = {
         "header": _.template("<strong><%= firstname %> <%= middlename %> <%= lastname %></strong><br />"   +
             "<%= street %>, <%= zipcode %> <%= city %>, <%= country %><br />" +
-            "Mobile: <%= mobile %> - E-mail: <%= email %><br />"),
+            "Mobile: <%= mobile %>, E-mail: <%= email %>"),
             //"Birthdate: <%= birthdate %> in <%= birthplace %>"
-        "experience": _.template("<div class='section'><%= from %> - <%= until %> <%= position %><div class='right'><%= city %>, <%= country %></div></div>"),
-        "education": _.template("<div class='section'><%= from %> - <%= until %> <%= position %><div class='right'><%= city %>, <%= country %></div></div>"),
-        "languages": _.template("<div class='section'><%= name %> - <%= level %></div>"),
-        "skills": _.template("<div class='section'><%= name %> - <%= content %></div>")
+        "experience": _.template("<div class='section'><div class='clearfix'><div class='tab'><%= from %> - <%= until %></div><%= position %><div class='right'><%= city %>, <%= country %></div></div>" +
+        "<div class='tab'></div><%= description %></div>"),
+        "education": _.template("<div class='section'><div class='tab'><%= from %> - <%= until %></div><%= position %><div class='right'><%= city %>, <%= country %></div></div>"),
+        "languages": _.template("<div class='section'><div class='tab'><%= name %></div><%= level %></div>"),
+        "skills": _.template("<div class='section'><div class='tab'><%= name %></div><%= content %></div>")
     };
 
 

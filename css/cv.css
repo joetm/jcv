@@ -43,3 +43,18 @@ header h1 {
 .content_section .section{
 	margin-bottom:1em;
 }
+.content_section .section .tab{
+	float:left;
+	margin-right:1em;
+	min-width:8em;
+}
+
+/*bootstrap clearfix*/
+.clearfix:before,
+.clearfix:after{
+  display: table;
+  content: " ";
+}
+.clearfix:after{
+  clear: both;
+}
